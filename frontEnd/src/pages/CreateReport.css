@@ -1,0 +1,24 @@
+.create-report-page {
+  padding: var(--spacing-xl) var(--spacing-lg);
+  min-height: calc(100vh - 80px);
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: var(--spacing-xl);
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: var(--spacing-md);
+  color: var(--color-text);
+}
+
+.page-header p {
+  font-size: 1.125rem;
+  color: var(--color-text-secondary);
+}
+

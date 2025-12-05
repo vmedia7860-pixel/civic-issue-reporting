@@ -1,0 +1,228 @@
+[
+  {
+    "id": "RPT_0001",
+    "title": "Large pothole on Main St near Park",
+    "description": "Large pothole forming, dangerous for two-wheelers and cars. Needs immediate attention.",
+    "category": "Road",
+    "priority": 7,
+    "status": "In Progress",
+    "location": {
+      "lat": 12.9716,
+      "lng": 77.5946,
+      "address": "Main Street near Central Park, Bangalore"
+    },
+    "media": [
+      {
+        "type": "image",
+        "url": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect fill='%23333' width='400' height='300'/%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' dy='.3em' fill='white' font-size='20'%3EPothole Image%3C/text%3E%3C/svg%3E",
+        "thumb": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='150'%3E%3Crect fill='%23333' width='200' height='150'/%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' dy='.3em' fill='white' font-size='14'%3EPothole%3C/text%3E%3C/svg%3E"
+      }
+    ],
+    "reporter": {
+      "id": "anon",
+      "name": "Anonymous"
+    },
+    "timeline": [
+      {
+        "ts": "2025-01-10T12:00:00Z",
+        "actor": "system",
+        "note": "Report created"
+      },
+      {
+        "ts": "2025-01-10T14:30:00Z",
+        "actor": "admin",
+        "note": "Status changed to Triaged"
+      },
+      {
+        "ts": "2025-01-11T09:00:00Z",
+        "actor": "admin",
+        "note": "Status changed to In Progress"
+      }
+    ],
+    "assignedTo": "Road Maintenance Team",
+    "createdAt": "2025-01-10T12:00:00Z"
+  },
+  {
+    "id": "RPT_0002",
+    "title": "Water leak on 5th Avenue",
+    "description": "Continuous water leak from underground pipe. Water is pooling on the street.",
+    "category": "Water",
+    "priority": 8,
+    "status": "Resolved",
+    "location": {
+      "lat": 12.9750,
+      "lng": 77.6000,
+      "address": "5th Avenue, Bangalore"
+    },
+    "media": [
+      {
+        "type": "image",
+        "url": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect fill='%2300f' width='400' height='300'/%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' dy='.3em' fill='white' font-size='20'%3EWater Leak%3C/text%3E%3C/svg%3E",
+        "thumb": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='150'%3E%3Crect fill='%2300f' width='200' height='150'/%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' dy='.3em' fill='white' font-size='14'%3ELeak%3C/text%3E%3C/svg%3E"
+      }
+    ],
+    "reporter": {
+      "id": "user123",
+      "name": "John Doe"
+    },
+    "timeline": [
+      {
+        "ts": "2025-01-08T10:00:00Z",
+        "actor": "system",
+        "note": "Report created"
+      },
+      {
+        "ts": "2025-01-08T11:00:00Z",
+        "actor": "admin",
+        "note": "Status changed to Triaged"
+      },
+      {
+        "ts": "2025-01-08T14:00:00Z",
+        "actor": "admin",
+        "note": "Status changed to In Progress"
+      },
+      {
+        "ts": "2025-01-09T16:00:00Z",
+        "actor": "admin",
+        "note": "Status changed to Resolved"
+      }
+    ],
+    "assignedTo": "Water Department",
+    "createdAt": "2025-01-08T10:00:00Z"
+  },
+  {
+    "id": "RPT_0003",
+    "title": "Broken streetlight on Oak Street",
+    "description": "Streetlight has been out for 3 days. Area is very dark at night, safety concern.",
+    "category": "Electricity",
+    "priority": 6,
+    "status": "New",
+    "location": {
+      "lat": 12.9680,
+      "lng": 77.5900,
+      "address": "Oak Street, Bangalore"
+    },
+    "media": [],
+    "reporter": {
+      "id": "anon",
+      "name": "Anonymous"
+    },
+    "timeline": [
+      {
+        "ts": "2025-01-12T18:00:00Z",
+        "actor": "system",
+        "note": "Report created"
+      }
+    ],
+    "assignedTo": null,
+    "createdAt": "2025-01-12T18:00:00Z"
+  },
+  {
+    "id": "RPT_0004",
+    "title": "Garbage pile near community center",
+    "description": "Large pile of garbage accumulating near the community center. Smell and health hazard.",
+    "category": "Waste",
+    "priority": 5,
+    "status": "Triaged",
+    "location": {
+      "lat": 12.9800,
+      "lng": 77.6100,
+      "address": "Community Center, Bangalore"
+    },
+    "media": [
+      {
+        "type": "image",
+        "url": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect fill='%23800' width='400' height='300'/%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' dy='.3em' fill='white' font-size='20'%3EGarbage%3C/text%3E%3C/svg%3E",
+        "thumb": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='150'%3E%3Crect fill='%23800' width='200' height='150'/%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' dy='.3em' fill='white' font-size='14'%3EWaste%3C/text%3E%3C/svg%3E"
+      }
+    ],
+    "reporter": {
+      "id": "user456",
+      "name": "Jane Smith"
+    },
+    "timeline": [
+      {
+        "ts": "2025-01-11T08:00:00Z",
+        "actor": "system",
+        "note": "Report created"
+      },
+      {
+        "ts": "2025-01-11T10:00:00Z",
+        "actor": "admin",
+        "note": "Status changed to Triaged"
+      }
+    ],
+    "assignedTo": "Waste Management",
+    "createdAt": "2025-01-11T08:00:00Z"
+  },
+  {
+    "id": "RPT_0005",
+    "title": "Traffic signal not working",
+    "description": "Traffic signal at the intersection is completely out. Creating traffic chaos.",
+    "category": "Traffic",
+    "priority": 7,
+    "status": "In Progress",
+    "location": {
+      "lat": 12.9650,
+      "lng": 77.5850,
+      "address": "Intersection of Main St and Park Ave, Bangalore"
+    },
+    "media": [],
+    "reporter": {
+      "id": "anon",
+      "name": "Anonymous"
+    },
+    "timeline": [
+      {
+        "ts": "2025-01-13T07:00:00Z",
+        "actor": "system",
+        "note": "Report created"
+      },
+      {
+        "ts": "2025-01-13T08:00:00Z",
+        "actor": "admin",
+        "note": "Status changed to In Progress"
+      }
+    ],
+    "assignedTo": "Traffic Department",
+    "createdAt": "2025-01-13T07:00:00Z"
+  },
+  {
+    "id": "RPT_0006",
+    "title": "Fallen tree branch blocking road",
+    "description": "Large tree branch fell during last night's storm. Blocking half the road.",
+    "category": "Parks",
+    "priority": 6,
+    "status": "Resolved",
+    "location": {
+      "lat": 12.9720,
+      "lng": 77.5950,
+      "address": "Elm Street, Bangalore"
+    },
+    "media": [],
+    "reporter": {
+      "id": "user789",
+      "name": "Bob Wilson"
+    },
+    "timeline": [
+      {
+        "ts": "2025-01-09T06:00:00Z",
+        "actor": "system",
+        "note": "Report created"
+      },
+      {
+        "ts": "2025-01-09T07:00:00Z",
+        "actor": "admin",
+        "note": "Status changed to In Progress"
+      },
+      {
+        "ts": "2025-01-09T10:00:00Z",
+        "actor": "admin",
+        "note": "Status changed to Resolved"
+      }
+    ],
+    "assignedTo": "Parks Department",
+    "createdAt": "2025-01-09T06:00:00Z"
+  }
+]
+
